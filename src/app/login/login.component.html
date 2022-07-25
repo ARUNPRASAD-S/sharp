@@ -1,0 +1,21 @@
+<body><form><br><div class="box"><h1><div class="center">
+    <form>
+      <div>
+      <div type="input">
+      <label>Username:</label>
+      <input type="text" name="username" [(ngModel)]="username"></div><br>
+      <div type="input">
+        <label>Password:</label>
+        <input type="text" name="password" [(ngModel)]="password"></div><br>
+      </div><nav><button>
+      <!--<a class="button" (click)="arithmetic()">Login</a>-->
+    <a routerLink="arithmetic" routerLinkActive="active">Login</a></button>
+      <br>
+      </nav>
+    </form>
+</div>
+  </h1>
+  </div>
+  </form>
+  </body>
+  <router-outlet></router-outlet>
